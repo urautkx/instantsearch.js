@@ -207,8 +207,8 @@ export default function connectHierarchicalMenu(renderFn, unmountFn = noop) {
 
       // eslint-disable-next-line valid-jsdoc
       /**
-       * @param {Object} param0
-       * @param {import('algoliasearch-helper').SearchParameters} param0.state
+       * @param {Object} param0 lol
+       * @param {any} param0.state lol
        */
       dispose({ state }) {
         unmountFn();
