@@ -10,6 +10,10 @@ import {
   AutocompleteRendererOptions,
   AutocompleteConnectorParams,
 } from '../connectors/autocomplete/connectAutocomplete';
+import {
+  ConfigureRendererOptions,
+  ConfigureConnectorParams,
+} from '../connectors/configure/connectConfigure';
 
 export type ScopedResult = {
   indexId: string;
@@ -141,6 +145,10 @@ export type IndexRenderState = Partial<{
   autocomplete: WidgetRenderState<
     AutocompleteRendererOptions,
     AutocompleteConnectorParams
+  >;
+  configure: WidgetRenderState<
+    ConfigureRendererOptions,
+    ConfigureConnectorParams
   >;
 }>;
 
